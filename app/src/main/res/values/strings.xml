@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AVFD PPQ</string>
+    <string name="title_activity_fitness_logger">FitnessLogger</string>
+
+    <string-array name="fitness_array">
+        <item>Don PPE</item>
+        <item>Don SCBA</item>
+        <item>Mounting and Dismounting Apparatus</item>
+        <item>Deployment of Valve Device</item>
+        <item>24\' Ladder Raise</item>
+        <item>Ladder Climb with Tool</item>
+        <item>24\' Ladder Lower and Removal</item>
+        <item>Use of Extrication/Ventilation Tool</item>
+        <item>Hose Deployment</item>
+        <item>Hose Line Repositioning</item>
+        <item>Attack Line Operation</item>
+        <item>Carry and Stow Power Saws or Vent Fan</item>
+        <item>Hose Roll and Storage</item>
+    </string-array>
+</resources>
