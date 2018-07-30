@@ -25,9 +25,13 @@
         </activity>
         <activity
             android:name=".FitnessLogger"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TimerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FitnessTracker"
+            android:label="@string/title_activity_fitness_tracker"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

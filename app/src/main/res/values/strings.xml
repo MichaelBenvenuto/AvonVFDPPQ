@@ -12,9 +12,11 @@
         <item>24\' Ladder Lower and Removal</item>
         <item>Use of Extrication/Ventilation Tool</item>
         <item>Hose Deployment</item>
-        <item>Hose Line Repositioning</item>
+        <item>Hoseline Repositioning</item>
         <item>Attack Line Operation</item>
-        <item>Carry and Stow Power Saws or Vent Fan</item>
+        <item>Carry and Stow Power Saws/Vent Fan</item>
         <item>Hose Roll and Storage</item>
+        <item>Access to Top of Apparatus</item>
     </string-array>
+    <string name="title_activity_fitness_tracker">FitnessTracker</string>
 </resources>

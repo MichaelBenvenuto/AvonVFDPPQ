@@ -91,7 +91,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         Calendar c = Calendar.getInstance();
         int day = c.get(Calendar.DAY_OF_MONTH);
-        int month = c.get(Calendar.MONTH);
+        int month = c.get(Calendar.MONTH) + 1;
         int year = c.get(Calendar.YEAR);
 
         date.setText(month + "/" + day + "/" + year);
@@ -105,11 +105,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         if(v == useToday){
             Calendar c = Calendar.getInstance();
             int day = c.get(Calendar.DAY_OF_MONTH);
-            int month = c.get(Calendar.MONTH);
+            int month = c.get(Calendar.MONTH) + 1;
             int year = c.get(Calendar.YEAR);
             date.setText(month + "/" + day + "/" + year);
         }else if(v == continueButton){
-            Intent i = new Intent(this, FitnessLogger.class);
+            Intent i = new Intent(this, FitnessTracker.class);
 
             User u = new User(name.getText().toString(), age.getText().toString(), date.getText().toString(), clearance.getText().toString());
 
@@ -138,7 +138,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     public void onDateClick(View v){
         Calendar c = Calendar.getInstance();
         int day = c.get(Calendar.DAY_OF_MONTH);
-        int month = c.get(Calendar.MONTH);
+        int month = c.get(Calendar.MONTH) + 1;
         int year = c.get(Calendar.YEAR);
         new DatePickerDialog(this, this, year, month, day).show();
     }
